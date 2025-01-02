@@ -35,7 +35,7 @@ const init = (async () => {
     throw err
 })
 
-app.http('JsReportRender', {
+app.http('report', {
     methods: ['GET', 'POST'],
     authLevel: 'anonymous',
     handler: async (request, context) => {
